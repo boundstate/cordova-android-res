@@ -1,0 +1,35 @@
+{
+  "name": "cordova-android-res",
+  "version": "0.0.1",
+  "description": "Android resource resizing for Cordova",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:boundstate/cordova-android-res.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "resource",
+    "resize"
+  ],
+  "author": "Bound State Software Inc <info@boundstatesofware.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boundstate/cordova-android-res/issues"
+  },
+  "homepage": "https://github.com/boundstate/cordova-android-res",
+  "dependencies": {
+    "android-res": "0.0.3",
+    "colors": "^1.1.0",
+    "glob": "^5.0.10",
+    "q": "^1.4.1"
+  }
+}
