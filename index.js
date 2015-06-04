@@ -62,8 +62,10 @@ function run() {
         completeDeferred.reject(err);
       })
       .then(function() {
-        console.log('');
         completeDeferred.resolve();
+      })
+      .finally(function() {
+        console.log('');
       });
   });
 

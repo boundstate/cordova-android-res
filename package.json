@@ -1,6 +1,6 @@
 {
   "name": "cordova-android-res",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Android resource resizing for Cordova",
   "main": "index.js",
   "preferGlobal": "true",
