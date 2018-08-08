@@ -29,7 +29,7 @@ function run() {
   var completeDeferred = Q.defer();
   var promises = [];
   var options = {
-    dest: 'platforms/android/res/'
+    dest: 'platforms/android/app/src/main/res/'
   };
 
   display.header('Generating Android resources');
